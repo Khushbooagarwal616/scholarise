@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.side-bar{
+  min-height: 100vh;
+  background-color: #042e3a;
+}
+.col-3 {
+  flex: 0 0 auto;
+  /* width: 18%; */
+}
+.text1{
+    font-size: 90%;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+}
+
+.btn {
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  font-size: small;
+
+}
+li{
+  list-style: none;
+}
+li :hover{
+  background-color: red;
+  color: #fff;
+}
+.searchbar{
+  border-bottom: 1px solid lightgrey;
+}
+.nav-tabs .nav-link.active {
+  color: black;
+ 
+}
+.nav-tabs{
+  border: 0;
+}
+.nav-tabs .nav-link {
+  color: gray;
+  background-color: #fff;
+  
+  margin-bottom: 0;
+  display: flex;
+  border: 0;
+}
+.firstelement{
+  align-items: center;
+  border-bottom: 3px solid rgb(3, 107, 55);
+}
+.five {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: red;
+    padding: 8px;
+    height: 14px;
+    width: 15px;
+    font-size: 11px;
+    color: white;
+}
+.secondelement {
+  align-items: center;
+}
+.nav-link{
+  padding-right: 0;
+  color: lightgray;
+}
+.fifthelement {
+  align-items: center;
+  
+}
+
+.droprow{
+  padding-top: 25px;
+}
+
+.dropd{
+    color: black;
+    border-color: lightgray;
+}
+
+.column1{
+   border-radius: 8px;
+    border: 1px solid lightgray;
+}
+.rowcol{
+  padding-top: 18px;
+}
+.attend{
+  padding-top: 15px;
+}
+.heading5attend{
+  text-align: start;
+}
+.text{
+  padding-top: 12px;
+  border-bottom: 1px solid lightgray;
+}
+.heading6ch{
+   text-align: start;
+    font-size: 12px;
+}
+.pera1{
+  color: gray;
+  font-size: 9px;
+}
+.buttondrop{
+  padding-top: 4px;
+}
+.buttona{
+  line-height: 1;
+    background-color: indianred;
+    padding: 4px 14px;
+    height: 23px;
+    border: none;
+}
+.dropdown1{
+  padding: 0px; 
+    height: 23px;
+    align-items: center; 
+    justify-content: center; 
+     text-align: center;
+    
+}
+.dropend1{
+  height: 20px;
+  align-items: center;
+}
+.dropblack{
+  color: black;
+}
+.see{
+  padding: 12px;
+}
+.seebutton{
+   color: #4b705c;
+    background-color: #f0faf9;
+    width: 24%;
+    padding: 3px;
+    border: 0;
+    font-weight: 500;
+}
+.surveys{
+  padding-top: 15px;
+}
+
+.twopera{
+  padding: 30px;
+}
+.twopera1{
+  margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.twopera2{
+   margin-bottom: 0px;
+    font-size: 12px;
+    color: gray;
+}
+.grades{
+  padding-top: 15px;
+}
+.column2{
+  height: 15rem;
+}
